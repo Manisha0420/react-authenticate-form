@@ -1,12 +1,44 @@
-# React + Vite
+# 🔐 React Authentication Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo 👉 [react-authenticate-form.vercel.app](https://react-authenticate-form.vercel.app/)
 
-Currently, two official plugins are available:
+A responsive, beginner-friendly authentication system built with **React**, **Vite**, and **Context API**. Includes login and registration forms with global state management, and is deployed with **Vercel** for fast performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Login & Register Forms
+- ⚛️ React Context API for Global Auth State
+- 🧠 Form Input Management with Hooks
+- 🎯 Input Validation (Basic)
+- 🚀 Vite for Blazing-Fast Dev Server
+- 🌐 Live Hosted via Vercel
+
+---
+
+## 🧠 Tech Stack
+
+| Tech         | Role                         |
+|--------------|------------------------------|
+| React        | Frontend UI                  |
+| Context API  | Global State (Auth)          |
+| Vite         | Fast Build Tool              |
+| Vercel       | Deployment Platform          |
+| ESLint       | Code Linting & Standards     |
+
+---
+
+## Project Structure
+src/
+├── components/
+│   ├── LoginForm.jsx
+│   └── RegisterForm.jsx
+├── context/
+│   └── UserContext.jsx
+├── App.jsx
+├── main.jsx
+
+## 📦 Deployment
+The app is continuously deployed via Vercel:
+🔗 https://react-authenticate-form.vercel.app
